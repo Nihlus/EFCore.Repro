@@ -56,19 +56,11 @@
               "target": "Package",
               "version": "[2.2.6, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[2.2.6, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
-            },
-            "Remora.EntityFrameworkCore.Modular": {
-              "target": "Package",
-              "version": "[1.1.0, )"
             }
           },
           "imports": [
@@ -92,14 +84,6 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[2.2.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[2.2.6, )"
-            },
-            "Remora.EntityFrameworkCore.Modular": {
-              "target": "Package",
-              "version": "[1.1.0, )"
             }
           },
           "imports": [
@@ -135,19 +119,11 @@
               "target": "Package",
               "version": "[2.2.6, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[2.2.6, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
-            },
-            "Remora.EntityFrameworkCore.Modular": {
-              "target": "Package",
-              "version": "[1.1.0, )"
             }
           },
           "imports": [
@@ -220,6 +196,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -240,6 +220,12 @@
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
         },
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -265,6 +251,10 @@
         },
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

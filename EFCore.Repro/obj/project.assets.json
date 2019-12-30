@@ -519,19 +519,6 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Remora.EntityFrameworkCore.Modular/1.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.2.6",
-          "Microsoft.EntityFrameworkCore.Design": "2.2.6"
-        },
-        "compile": {
-          "lib/netstandard2.0/Remora.EntityFrameworkCore.Modular.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Remora.EntityFrameworkCore.Modular.dll": {}
-        }
-      },
       "Remotion.Linq/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1266,9 +1253,7 @@
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.2.6",
-          "Microsoft.EntityFrameworkCore.Design": "2.2.6",
-          "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6",
-          "Remora.EntityFrameworkCore.Modular": "1.1.0"
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6"
         },
         "compile": {
           "bin/placeholder/EFCore.Repro.Library.dll": {}
@@ -1666,19 +1651,6 @@
         },
         "runtime": {
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
-        }
-      },
-      "Remora.EntityFrameworkCore.Modular/1.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.2.6",
-          "Microsoft.EntityFrameworkCore.Design": "2.2.6"
-        },
-        "compile": {
-          "lib/netcoreapp3.0/Remora.EntityFrameworkCore.Modular.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/Remora.EntityFrameworkCore.Modular.dll": {}
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -2911,9 +2883,7 @@
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.2.6",
-          "Microsoft.EntityFrameworkCore.Design": "2.2.6",
-          "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6",
-          "Remora.EntityFrameworkCore.Modular": "1.1.0"
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6"
         },
         "compile": {
           "bin/placeholder/EFCore.Repro.Library.dll": {}
@@ -3263,19 +3233,6 @@
         },
         "runtime": {
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
-        }
-      },
-      "Remora.EntityFrameworkCore.Modular/1.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.2.6",
-          "Microsoft.EntityFrameworkCore.Design": "2.2.6"
-        },
-        "compile": {
-          "lib/netstandard2.0/Remora.EntityFrameworkCore.Modular.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Remora.EntityFrameworkCore.Modular.dll": {}
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -3942,9 +3899,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.2.6",
-          "Microsoft.EntityFrameworkCore.Design": "2.2.6",
-          "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6",
-          "Remora.EntityFrameworkCore.Modular": "1.1.0"
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6"
         },
         "compile": {
           "bin/placeholder/EFCore.Repro.Library.dll": {}
@@ -4893,29 +4848,6 @@
         "newtonsoft.json.9.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
-      ]
-    },
-    "Remora.EntityFrameworkCore.Modular/1.1.0": {
-      "sha512": "0pyY9OX5UiXwLbxUYc+Q+9v3/ai1a/xFcJ6V0q8innLe0Qw6R9Htkfi9aw+nxUfV4vBLyd/ptzKdMNDXchyx/w==",
-      "type": "package",
-      "path": "remora.entityframeworkcore.modular/1.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netcoreapp3.0/Remora.EntityFrameworkCore.Modular.dll",
-        "lib/netcoreapp3.0/Remora.EntityFrameworkCore.Modular.pdb",
-        "lib/netcoreapp3.0/Remora.EntityFrameworkCore.Modular.runtimeconfig.json",
-        "lib/netcoreapp3.0/Remora.EntityFrameworkCore.Modular.xml",
-        "lib/netstandard2.0/Remora.EntityFrameworkCore.Modular.dll",
-        "lib/netstandard2.0/Remora.EntityFrameworkCore.Modular.pdb",
-        "lib/netstandard2.0/Remora.EntityFrameworkCore.Modular.xml",
-        "remora.entityframeworkcore.modular.1.1.0.nupkg.sha512",
-        "remora.entityframeworkcore.modular.nuspec",
-        "src/Remora.EntityFrameworkCore.Modular/Extensions/ServiceCollectionExtensions.cs",
-        "src/Remora.EntityFrameworkCore.Modular/Remora.EntityFrameworkCore.Modular.csproj",
-        "src/Remora.EntityFrameworkCore.Modular/SchemaAwareDbContext.cs",
-        "src/Remora.EntityFrameworkCore.Modular/SchemaAwareMigrationsModelDiffer.cs",
-        "src/Remora.EntityFrameworkCore.Modular/Services/SchemaAwareDbContextService.cs"
       ]
     },
     "Remotion.Linq/2.2.0": {
@@ -8476,13 +8408,16 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "EFCore.Repro.Library >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.6",
       "Microsoft.NETCore.App >= 2.2.0"
     ],
     ".NETCoreApp,Version=v3.0": [
-      "EFCore.Repro.Library >= 1.0.0"
+      "EFCore.Repro.Library >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.6"
     ],
     ".NETStandard,Version=v2.0": [
       "EFCore.Repro.Library >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.6",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -8546,6 +8481,10 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": {
+            "target": "Package",
+            "version": "[2.2.6, )"
+          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
@@ -8566,6 +8505,12 @@
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
       },
       "netcoreapp3.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": {
+            "target": "Package",
+            "version": "[2.2.6, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -8591,6 +8536,10 @@
       },
       "netstandard2.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": {
+            "target": "Package",
+            "version": "[2.2.6, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",

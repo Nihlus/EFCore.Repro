@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v3.0": {
       "EFCore.Repro/1.0.0": {
         "dependencies": {
-          "EFCore.Repro.Library": "1.0.0"
+          "EFCore.Repro.Library": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6"
         },
         "runtime": {
           "EFCore.Repro.dll": {}
@@ -339,18 +340,6 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.1.19813"
-          }
-        }
-      },
-      "Remora.EntityFrameworkCore.Modular/1.1.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.2.6",
-          "Microsoft.EntityFrameworkCore.Design": "2.2.6"
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/Remora.EntityFrameworkCore.Modular.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
           }
         }
       },
@@ -1116,9 +1105,7 @@
       "EFCore.Repro.Library/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.2.6",
-          "Microsoft.EntityFrameworkCore.Design": "2.2.6",
-          "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6",
-          "Remora.EntityFrameworkCore.Modular": "1.1.0"
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6"
         },
         "runtime": {
           "EFCore.Repro.Library.dll": {}
@@ -1320,13 +1307,6 @@
       "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
       "path": "newtonsoft.json/9.0.1",
       "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
-    },
-    "Remora.EntityFrameworkCore.Modular/1.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-0pyY9OX5UiXwLbxUYc+Q+9v3/ai1a/xFcJ6V0q8innLe0Qw6R9Htkfi9aw+nxUfV4vBLyd/ptzKdMNDXchyx/w==",
-      "path": "remora.entityframeworkcore.modular/1.1.0",
-      "hashPath": "remora.entityframeworkcore.modular.1.1.0.nupkg.sha512"
     },
     "Remotion.Linq/2.2.0": {
       "type": "package",
