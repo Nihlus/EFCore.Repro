@@ -6,8 +6,9 @@ namespace EFCore.Repro
     {
         public DbSet<ReproEntity> Entities { get; }
 
-        public ReproDatabaseContext(DbContextOptions<ReproDatabaseContext> options) : base(options)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            optionsBuilder.UseSqlite("DataSource=:memory:");
         }
     }
 }

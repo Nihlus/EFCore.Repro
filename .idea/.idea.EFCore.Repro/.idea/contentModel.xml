@@ -5,11 +5,7 @@
     <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_EFCore.Repro.-1250370154.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="EFCore.Repro" t="IncludeRecursive">
-        <e p="Design" t="Include">
-          <e p="DesignTimeReproDatabaseContextFactory.cs" t="Include" />
-        </e>
         <e p="EFCore.Repro.csproj" t="IncludeRecursive" />
-        <e p="Program.cs" t="Include" />
         <e p="ReproDatabaseContext.cs" t="Include" />
         <e p="ReproEntity.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
