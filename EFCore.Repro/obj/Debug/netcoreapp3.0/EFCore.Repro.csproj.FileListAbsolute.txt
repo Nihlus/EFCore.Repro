@@ -1,0 +1,11 @@
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro/bin/Debug/netcoreapp3.0/EFCore.Repro.deps.json
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro/bin/Debug/netcoreapp3.0/EFCore.Repro.dll
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro/bin/Debug/netcoreapp3.0/EFCore.Repro.pdb
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro/bin/Debug/netcoreapp3.0/EFCore.Repro.Library.dll
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro/bin/Debug/netcoreapp3.0/EFCore.Repro.Library.pdb
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro/obj/Debug/netcoreapp3.0/EFCore.Repro.csprojAssemblyReference.cache
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro/obj/Debug/netcoreapp3.0/EFCore.Repro.AssemblyInfoInputs.cache
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro/obj/Debug/netcoreapp3.0/EFCore.Repro.AssemblyInfo.cs
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro/obj/Debug/netcoreapp3.0/EFCore.Repro.csproj.CopyComplete
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro/obj/Debug/netcoreapp3.0/EFCore.Repro.dll
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro/obj/Debug/netcoreapp3.0/EFCore.Repro.pdb
