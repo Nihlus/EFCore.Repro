@@ -1,5 +1,4 @@
-﻿using EFCore.Repro.Library.Design;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
 namespace EFCore.Repro.Design
