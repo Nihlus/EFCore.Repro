@@ -6,11 +6,8 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.6" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.6" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\EFCore.Repro.Library\EFCore.Repro.Library.csproj" />
     </ItemGroup>
 
 </Project>
