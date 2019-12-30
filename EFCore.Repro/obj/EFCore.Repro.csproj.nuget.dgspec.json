@@ -48,10 +48,6 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[2.2.6, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[2.2.6, )"
@@ -77,10 +73,6 @@
         },
         "netcoreapp3.0": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[2.2.6, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[2.2.6, )"
@@ -111,10 +103,6 @@
         },
         "netstandard2.0": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[2.2.6, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[2.2.6, )"
@@ -196,6 +184,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[2.2.6, )"
@@ -221,6 +213,10 @@
         },
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[2.2.6, )"
@@ -251,6 +247,10 @@
         },
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[2.2.6, )"

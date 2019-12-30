@@ -9,6 +9,7 @@
       "EFCore.Repro/1.0.0": {
         "dependencies": {
           "EFCore.Repro.Library": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6"
         },
         "runtime": {
@@ -1104,7 +1105,6 @@
       },
       "EFCore.Repro.Library/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.Design": "2.2.6"
         },
         "runtime": {
