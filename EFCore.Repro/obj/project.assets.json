@@ -1250,7 +1250,7 @@
       },
       "EFCore.Repro.Library/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "2.2.6"
         },
@@ -2879,7 +2879,7 @@
       },
       "EFCore.Repro.Library/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.0",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "2.2.6"
         },

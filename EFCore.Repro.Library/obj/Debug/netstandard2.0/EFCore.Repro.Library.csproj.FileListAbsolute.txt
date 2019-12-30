@@ -1,0 +1,8 @@
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro.Library/bin/Debug/netstandard2.0/EFCore.Repro.Library.deps.json
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro.Library/bin/Debug/netstandard2.0/EFCore.Repro.Library.dll
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro.Library/bin/Debug/netstandard2.0/EFCore.Repro.Library.pdb
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro.Library/obj/Debug/netstandard2.0/EFCore.Repro.Library.csprojAssemblyReference.cache
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro.Library/obj/Debug/netstandard2.0/EFCore.Repro.Library.AssemblyInfoInputs.cache
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro.Library/obj/Debug/netstandard2.0/EFCore.Repro.Library.AssemblyInfo.cs
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro.Library/obj/Debug/netstandard2.0/EFCore.Repro.Library.dll
+/home/jarl/Programming/EFCore.Repro/EFCore.Repro.Library/obj/Debug/netstandard2.0/EFCore.Repro.Library.pdb
